@@ -1,0 +1,14 @@
+    Updating crates.io index
+error: failed to select a version for `soroban-token-sdk`.
+    ... required by package `kira_teminat v0.1.0 (C:\Users\elifv\Desktop\stellar-bootcamp-kira-teminati\contracts\kira_teminat)`
+versions that meet the requirements `^22.0.0` are: 22.0.8, 22.0.7, 22.0.6, 22.0.5, 22.0.4, 22.0.3, 22.0.2, 22.0.1, 22.0.0
+
+the package `kira_teminat` depends on `soroban-token-sdk`, with features: `testutils` but `soroban-token-sdk` does not have these features.
+
+
+all possible versions conflict with previously selected packages.
+
+  previously selected package `soroban-token-sdk v22.0.0`
+    ... which satisfies dependency `soroban-token-sdk = "^22.0.0"` of package `kira_teminat v0.1.0 (C:\Users\elifv\Desktop\stellar-bootcamp-kira-teminati\contracts\kira_teminat)`
+
+failed to select a version for `soroban-token-sdk` which could resolve this conflict
